@@ -31,6 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.Okay = new System.Windows.Forms.Button();
+            this.Cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -67,11 +69,35 @@
             this.radioButton1.Text = "radioButton1";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+            // Okay
+            // 
+            this.Okay.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.Okay.Location = new System.Drawing.Point(460, 406);
+            this.Okay.Name = "Okay";
+            this.Okay.Size = new System.Drawing.Size(75, 23);
+            this.Okay.TabIndex = 3;
+            this.Okay.Text = "Okay";
+            this.Okay.UseVisualStyleBackColor = true;
+            this.Okay.Click += new System.EventHandler(this.Okay_Click);
+            // 
+            // Cancel
+            // 
+            this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.Cancel.Location = new System.Drawing.Point(613, 406);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(75, 23);
+            this.Cancel.TabIndex = 4;
+            this.Cancel.Text = "Cancel";
+            this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Cancel);
+            this.Controls.Add(this.Okay);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
@@ -87,6 +113,8 @@
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button Okay;
+        private System.Windows.Forms.Button Cancel;
     }
 }
 

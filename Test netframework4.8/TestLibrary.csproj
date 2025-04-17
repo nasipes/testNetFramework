@@ -7,8 +7,8 @@
     <ProjectGuid>{B8FE6BAF-0C99-49F1-88AD-C4BDF71A3102}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Test_netframework4._8</RootNamespace>
-    <AssemblyName>Test netframework4.8</AssemblyName>
+    <RootNamespace>TestLibrary</RootNamespace>
+    <AssemblyName>TestLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -46,9 +46,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InterForm\InterForm.csproj">
-      <Project>{079f9f0b-e46d-4830-a3b2-fb0f60733b1e}</Project>
-      <Name>InterForm</Name>
+    <ProjectReference Include="..\ProgressForm\ProgressForm.csproj">
+      <Project>{c85b06ff-0943-404a-b786-441dcba28076}</Project>
+      <Name>ProgressForm</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
