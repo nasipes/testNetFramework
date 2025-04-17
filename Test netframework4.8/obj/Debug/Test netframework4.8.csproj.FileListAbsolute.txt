@@ -1,0 +1,10 @@
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\bin\Debug\Test netframework4.8.dll
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\bin\Debug\Test netframework4.8.pdb
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\bin\Debug\InterForm.exe
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\bin\Debug\InterForm.pdb
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\bin\Debug\InterForm.exe.config
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\obj\Debug\Test netframework4.8.csproj.AssemblyReference.cache
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\obj\Debug\Test netframework4.8.csproj.CoreCompileInputs.cache
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\obj\Debug\Test net.5B2C8B09.Up2Date
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\obj\Debug\Test netframework4.8.dll
+C:\Users\nick.sipes\source\repos\Test netframework4.8\Test netframework4.8\obj\Debug\Test netframework4.8.pdb
